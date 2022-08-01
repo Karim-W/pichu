@@ -1,14 +1,15 @@
 {
-	"name": "pichu",
-	"version": "1.0.0",
+	"name": "pika-pichu",
+	"version": "1.0.3",
 	"description": "Socket Client used to connect to the Pikachu Socket Server",
 	"main": "dist/index.js",
+	"types": "dist",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"watch": "tsc --watch",
 		"dev:ts-node": "ts-node index.ts",
 		"dev": "tsc -w | nodemon dist",
-		"build": "tsc",
+		"build": "tsc -p .",
 		"start": "node dist/index.js"
 	},
 	"devDependencies": {
