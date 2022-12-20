@@ -1,6 +1,6 @@
 {
 	"name": "pika-pichu",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Socket Client used to connect to the Pikachu Socket Server",
 	"main": "dist/index.js",
 	"types": "dist",
